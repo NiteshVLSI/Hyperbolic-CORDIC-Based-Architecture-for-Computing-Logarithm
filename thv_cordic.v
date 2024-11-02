@@ -40,7 +40,7 @@ shift_add #(1) stage_1 (.x_i(x_0_1_out), .y_i(y_0_1_out), .z_i(z_0_1_out), .valu
 shift_add #(2) stage_2 (.x_i(x_1_2_out), .y_i(y_1_2_out), .z_i(z_1_2_out), .value(value_1), .x(x_2_3_in), .y(y_2_3_in), .z(z_2_3_in));
 shift_add #(3) stage_3 (.x_i(x_2_3_out), .y_i(y_2_3_out), .z_i(z_2_3_out), .value(value_2), .x(x_3_4_in), .y(y_3_4_in), .z(z_3_4_in));
 shift_add #(4) stage_4 (.x_i(x_3_4_out), .y_i(y_3_4_out), .z_i(z_3_4_out), .value(value_3), .x(x_4_5_in), .y(y_4_5_in), .z(z_4_5_in));
-shift_add #(4) stage_5 (.x_i(x_4_5_out), .y_i(y_4_5_out), .z_i(z_4_5_out), .value(value_4), .x(x_5_6_in), .y(y_5_6_in), .z(z_5_6_in));
+shift_add #(4) stage_5 (.x_i(x_4_5_out), .y_i(y_4_5_out), .z_i(z_4_5_out), .value(value_3), .x(x_5_6_in), .y(y_5_6_in), .z(z_5_6_in));
 shift_add #(5) stage_6 (.x_i(x_5_6_out), .y_i(y_5_6_out), .z_i(z_5_6_out), .value(value_4), .x(x_6_7_in), .y(y_6_7_in), .z(z_6_7_in));
 shift_add #(6) stage_7 (.x_i(x_6_7_out), .y_i(y_6_7_out), .z_i(z_6_7_out), .value(value_5), .x(x_7_8_in), .y(y_7_8_in), .z(z_7_8_in));
 shift_add #(7) stage_8 (.x_i(x_7_8_out), .y_i(y_7_8_out), .z_i(z_7_8_out), .value(value_6), .x(x_8_9_in), .y(y_8_9_in), .z(z_8_9_in));
@@ -49,7 +49,7 @@ shift_add #(9) stage_10 (.x_i(x_9_10_out), .y_i(y_9_10_out), .z_i(z_9_10_out), .
 shift_add #(10) stage_11 (.x_i(x_10_11_out), .y_i(y_10_11_out), .z_i(z_10_11_out), .value(value_9), .x(x_11_12_in), .y(y_11_12_in), .z(z_11_12_in));
 shift_add #(11) stage_12 (.x_i(x_11_12_out), .y_i(y_11_12_out), .z_i(z_11_12_out), .value(value_10), .x(x_12_13_in), .y(y_12_13_in), .z(z_12_13_in));
 shift_add #(12) stage_13 (.x_i(x_12_13_out), .y_i(y_12_13_out), .z_i(z_12_13_out), .value(value_11), .x(x_13_14_in), .y(y_13_14_in), .z(z_13_14_in));
-shift_add #(13) stage_14 (.x_i(x_13_14_out), .y_i(y_13_14_out), .z_i(z_13_14_out), .value(value_12), .x(x_14_15_in), .y(y_14_15_in), .z(z_14_15_in));
+shift_add #(13) stage_14 (.x_i(x_13_14_out), .y_i(y_13_14_out), .z_i(z_13_14_out), .value(value_11), .x(x_14_15_in), .y(y_14_15_in), .z(z_14_15_in));
 shift_add #(13) stage_15 (.x_i(x_14_15_out), .y_i(y_14_15_out), .z_i(z_14_15_out), .value(value_12), .x(x_15_16_in), .y(y_15_16_in), .z(z_15_16_in));
 shift_add #(14) stage_16 (.x_i(x_15_16_out), .y_i(y_15_16_out), .z_i(z_15_16_out), .value(value_13), .x(x_16_17_in), .y(y_16_17_in), .z(z_16_17_in));
 shift_add #(15) stage_17 (.x_i(x_16_17_out), .y_i(y_16_17_out), .z_i(z_16_17_out), .value(value_14), .x(x_17_18_in), .y(y_17_18_in), .z(z_17_18_in));
