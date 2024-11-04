@@ -52,7 +52,8 @@ The design employs a pipelined architecture for high throughput, with each stage
 - **THV-CORDIC Module**: Calculates `log2(1.Min)` using the iterative THV-CORDIC process.
 - **Addition Unit (AU)**: Combines the results from the THV-CORDIC module with the exponent to produce the final `log2(R)`.
 
-![THV-CORDIC Architecture Diagram](path_to_architecture_image.png)
+![THV-CORDIC Architecture Diagram](https://github.com/user-attachments/assets/8a8a0e6f-71b7-4787-b8fc-c14eb18f0d64
+)
 
 ### Implementation Results
 
