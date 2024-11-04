@@ -9,7 +9,15 @@ begin
    if(reset)
        log_value <= 32'b0;
    else
-       log_value <= {exponent,value[24:0]};
+       begin
+           if(exponent[7]==0)
+               log_value <= {exponent,value[24:0]};
+           else
+               begin
+                log_value <= {1'b1,({exponent[6:0],25'b0}-{7'b0,value[24:0]})};
+               end
+       end
+
 end
 
 endmodule
